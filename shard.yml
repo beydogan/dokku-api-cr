@@ -1,0 +1,20 @@
+name: dokku-api
+version: 0.1.0
+
+authors:
+  - Mehmet Beydogan <mehmet.beydogan@gmail.com>
+
+targets:
+  dokku-api:
+    main: src/dokku-api.cr
+
+crystal: 0.24.1
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  icr:
+    github: crystal-community/icr
+    branch: master
+license: MIT

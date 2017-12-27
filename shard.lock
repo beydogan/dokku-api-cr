@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  icr:
+    github: crystal-community/icr
+    commit: 6dabbef34e3223fe08ff337ded13e873cd369c60
+
+  kemal:
+    github: kemalcr/kemal
+    commit: f6f342df6595529a82442ae1af3b3968a2dccb91
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.8
+
